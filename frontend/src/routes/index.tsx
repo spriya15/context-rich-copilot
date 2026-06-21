@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useCallback, useEffect, useState } from "react";
 import { Brain, GraduationCap, Code2, Loader2, AlertTriangle, Lightbulb, Sparkles, CheckCircle2 } from "lucide-react";
 
-const API = "https://aye-explain-experiences-recruitment.trycloudflare.com";
+const API = "https://context-rich-copilot.onrender.com";
 
 type Preference = { category: string; value: string; text?: string };
 
